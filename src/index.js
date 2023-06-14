@@ -1,6 +1,6 @@
 import "./styles.css";
-
-for (var num = 9; num > 0; num--) {
+//数字を増やしました9→19
+for (var num = 19; num > 0; num--) {
   var elm = document.createElement("button");
   elm.innerHTML = num;
   elm.setAttribute("id", num);
